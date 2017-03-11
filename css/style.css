@@ -17,10 +17,19 @@ h2 {
   overflow: hidden;
   position: relative;
   top: -20px;
+  left: 6%;
 /*  width: 348px;*/
 }
 
 #container div { position: absolute; }
+
+.container2 {
+  display: inline-block;
+  float: left;
+
+
+}
+
 
 .pour {
   position: absolute;
