@@ -24,8 +24,8 @@ h2 {
 #container div { position: absolute; }
 
 .container2 {
-  display: inline-block;
-  float: left;
+  display: block;
+  float: right;
 
 
 }
@@ -57,18 +57,19 @@ h2 {
     top: 60px;
 }
 .handle .top-right {
-    height: 50px;
-    width: 30px;
-    border-top: solid 30px rgba(255, 255, 255, 0.4);
-    border-right: solid 30px rgba(255, 255, 255, 0.4);
+    height: 80px;
+    width: 40px;
+  
+    border-top: solid 20px rgba(255, 255, 255, 0.4);
+    border-right: solid 20px rgba(255, 255, 255, 0.4);
     border-top-right-radius: 50px;
 }
 .handle .bottom-right {
-    height: 40px;
+    height: 70px;
       top: 80px;
-    width: 30px;
-    border-bottom: solid 30px rgba(255, 255, 255, 0.4);
-    border-right: solid 30px rgba(255, 255, 255, 0.4);
+    width: 40px;
+    border-bottom: solid 20px rgba(255, 255, 255, 0.4);
+    border-right: solid 20px rgba(255, 255, 255, 0.4);
     border-bottom-right-radius: 50px;
 }
 
@@ -177,14 +178,14 @@ h2 {
   float: left;
   position: absolute;
   z-index: 999;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 30px;
   background-color: #fefefe;
 }
 .foam-1 {
   top: -30px;
-  left: -10px;
+  left: -5px;
 }
 .foam-2 {
   top: -35px;
@@ -199,8 +200,8 @@ h2 {
   left: 80px; 
 }
 .foam-5 {
-  top: -30px;
-  left: 120px; 
+  top: -33px;
+  left: 105px; 
 }
 /* .foam-6 {
   top: -20px;
